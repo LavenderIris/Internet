@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Internet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body class="sans-serif">
+        <!-- Main navbar  -->
+        <div id="navbar">
+            <img id="top_logo" src="images/globe.png" alt="picture of globe">
+            <h1 id="t1">The Inter<span class="blue">net</span></h1>
+            <!-- bottom section of navbar (the blue strip) -->
+            <div id="navbar_bottom" >
+                <h2 class="sans-serif" id="www_padding">The World Wide Web</h2>  
+            </div>
+        </div>
+
+        <!-- Left content/navigation bar -->
+        <div id="contentLeft">
+            <h5> So, what's an internet?</h5>
+            <h6>An Interconnected Network of computers all around the world!</h6>
+            <!-- buttons -->
+            <button class="nav_button">WATCH A VIDEO</button>
+            <button class="nav_button orange">MORE RESOURCES</button>
+                
+            <hr/>
+            
+            <!-- ninja images overlayed on top of matrix background -->
+            <div class= "left_nav_box">
+                <h4 id="banner_tag">Reinvent your career in just 14 weeks</h4>
+                <img alt="matrix background" src="images/ad_background.png" id="matrix_image"> 
+                <img alt="ninja gal" src="images/ninja.png" id="ninja_image">
+                <button class="nav_button" id="button_padding">Learn More >>></button>
+
+            </div>
+        </div>
+
+        <!-- main content section  -->
+         <div id="contentRight">
+            <!-- top area with DNS and phone stuff on the right -->
+            <div id="contentRight_top">
+                <!-- drawing top of banner and the world DNS -->
+                <img src="images/home.png" alt="house logo" id="house_icon"> 
+                <h5 class="DNS_align">DNS</h5>
+
+                <!-- phone number banner -->
+                <div id="contentRight_top_corner">
+                    <img src="images/phone.png" id="phone_image" alt="phone logo">
+                    <h5 class="DNS_align" id="phone_text"> Mon-Fri 9 a.m.-5 p.m. (EST) </h5>
+                    <h3 class="DNS_align" id="big_phone"> 855-967-3787</h3>
+                    <h5 class="DNS_align" id="phone_text2"> International +1.617/963.0555</h5>  
+                </div>
+                <hr/ id="divider">
+            </div>
+            
+            <div class="small_font">
+            <!-- contentRight bottom section -->
+                <h4>Clients and Servers</h4>
+                Computers are connected to the <span class="light_blue">Web </span> are called <b>clients</b> and <b>servers</b>.
+                <ul>
+                    <li><span class="light_blue">Clients </span> are the typical Web user's Internet Connected devices (for exampe, your computer connected
+                    to your Wi-Fi, or your phone connected to your mobile network) and <span class="light_blue">Web-accessing software</span> available on those devices
+                    (usually a web browser like Firefox or Chrome).
+                    </li>
+                    <li><span class="light_blue">Servers </span> are computers that store <span class="light_blue">webpages</span>, <span class="light_blue">sites</span>, or <span class="light_blue">apps</span>.  
+                    When a client devices wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser. 
+                    </li>
+                </ul>       
+            
+                <!-- client server image -->
+                <img src="images/client_server.jpg" id="client_server" alt="client server interaction description">
+
+                <!-- bottom content text -->
+                <h4>So What Actually Happens?</h4>
+                <ol>
+                    <li>The browser goes to the <span class="light_blue">DNS server </span>and finds the real address of the <span class="light_blue">server</span> that the website lives on.
+                    </li>
+                    <li>The browser sends an <span class="light_blue">HTTP request </span>message to teh server asking it to send a copy of the website to the client
+                    </li>
+                    <li>If the server approves of a client's request, the server sends the client a <span class="light_blue">"200 OK" message</span>, which means "Permission granted! Here you go!, and then
+                    starts sending the website's files to teh browser as a series of small chunks.
+                    </li>
+                    <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+                </ol>     
+                <!-- bottom outlined blue box -->
+                <div id="bottom_blue_box">
+                    <img src="images/html.png" alt="html logos" id="pic_bottom">
+                    
+                    <div id="bottom_blue_box_right">
+                        <h4 class="words_bottom">The Big 3 - HTML, CSS, JavaScript</h4>
+                        <br>
+                        While the server can process information in many different languages, the files they server to the client 
+                        are always going to be some combination of HTML, CSS, and JavaScript!
+                        <br>
+                        Learn more about the Big 3 <span class="light_blue">here</span>!
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </body>
+</html>
